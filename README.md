@@ -51,16 +51,6 @@ Boresha Mtaa is a community-driven platform that allows **citizens** to report l
 | Backend    | Spring Boot, Spring Web, Spring Data JPA |
 | Database   | PostgreSQL                  |
 | Build Tool | Maven                       |
-| Other      | HikariCP, Lombok, CORS      |
 
 ---
 
-## 📂 Project Structure
-boreshamtaa-management-system/
-├── backend/
-│ └── src/main/java/com/boreshamtaa/...
-├── frontend/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ └── App.js
