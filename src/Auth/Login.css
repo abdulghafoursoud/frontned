@@ -1,0 +1,52 @@
+/* Spinning animation for the logo */
+.spinning {
+  animation: spin 2s linear infinite; /* Slower spinning (2 seconds per rotation) */
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .card {
+      max-width: 85%; /* Decrease width for small screens */
+      padding: 10px; /* Add some internal padding */
+  }
+
+  .card-header img {
+      max-width: 40px; /* Smaller logo for compact view */
+  }
+
+  .btn {
+      font-size: 13px; /* Slightly smaller button text */
+  }
+
+  .form-control {
+      font-size: 13px; /* Slightly smaller input text */
+  }
+
+  .card-body {
+      padding: 20px; /* Reduce padding for compactness */
+  }
+
+  .card-footer {
+      padding: 10px; /* Compact footer */
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+      max-width: 80%; /* Further decrease width for very small screens */
+      padding: 8px;
+  }
+
+  .card-header img {
+      max-width: 35px; /* Further reduce logo size */
+  }
+}
